@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px; 
+    background-color: #58355E; 
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+}
+  
+.left {
+    flex: 1;
+}
+  
+.logo {
+    font-size: 26px; 
+    font-weight: bold;
+    color: #ecf0f1; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+  
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+  
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+  
+.profileImage {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    background-color: #ecf0f142;
+    border: 1px solid #ecf0f1ce;
+}
+  
+.profileImageLink {
+    text-decoration: none;
+}
+  
+
+  

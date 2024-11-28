@@ -1,0 +1,141 @@
+.requestsContainer {
+    width: 90%;
+    max-width: 80vw;
+    margin: 5vh auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #58355E;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.statusFilter {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    margin-bottom: 3vh;
+    height: 7vh;
+}
+
+.statusButton {
+    width: 12vw;
+}
+
+.statusFilter button.active {
+    background-color: #58355e67;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.requestsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1rem;
+    direction: rtl;
+}
+
+.limitLabel {
+    text-align: center;
+}
+
+.filterAdjust {
+    font-size: 1rem;
+    width: 7vw;
+}
+
+.filterAdjustInput {
+    margin: 1vh;
+    width: 5vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.requestsTable th,
+.requestsTable td {
+    padding: 1.3%;
+    border: 0.1rem solid #ddd;
+}
+
+.requestsTable th {
+    border-color: #58355E;
+    border-width: 4%;
+}
+
+
+.requestsTable thead {
+    background-color: #58355e67;
+    color: #58355E;
+}
+
+.requestsTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.requestsTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.status {
+    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.status.pending {
+    background-color: #FFCC99;
+    color: white;
+}
+
+.status.approved {
+    background-color: #aee8ae;
+    color: white;
+}
+
+.status.disapproved {
+    background-color: #FFB6C1;
+    color: white;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+.approveButton {
+    background-color: #aee8ae;
+    color: white;
+    width: 5vw;
+    height: 4vh;
+    border: none;
+    cursor: pointer;
+}
+
+.disapproveButton {
+    background-color: #FFB6C1; 
+    color: white;
+    width: 5vw;
+    height: 4vh;
+    border: none;
+    cursor: pointer;
+}
